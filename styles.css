@@ -18,28 +18,24 @@ header {
     animation: text 3s 1;
 }
 
-.pictures {
+.container {
     position: relative;
-}
-
-#circlehead {
     display: flex;
+    position: relative;
     justify-content: center;
-    padding-top: 5em;
+    padding-top: 2em;
 }
 
-#circlehead>img {
-    max-width: 30%;
-    top: 0px;
+.left {
+    position: absolute;
 }
 
-#circlehead2 {
-    display: flex;
-    justify-content: center;
-    top: 0px;
-    padding-top: 5em;
+.right {
+    position: absolute;
+    opacity: 0;
 }
 
-#circlehead2>img {
-    max-width: 30%;
+.right:hover {
+    cursor: pointer;
+    opacity: 1;
 }
