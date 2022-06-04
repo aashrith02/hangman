@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+* {
+    background-color: rgb(47, 41, 41);
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+header {
+    color: rgb(47, 41, 41);
+    background-color: rgb(251, 229, 229);
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
