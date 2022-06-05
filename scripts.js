@@ -31,6 +31,8 @@ function check() {
         RemainingAttempts--;
         if (parseInt(text_feild) == randomNum) {
             document.getElementById("display-message").innerHTML = "Correct Guess";
+            document.getElementById("check").disabled = true;
+
 
         } else if (parseInt(text_feild) > randomNum) {
             document.getElementById("display-message").innerHTML = "Your Guess is higher than the number";
@@ -44,6 +46,7 @@ function check() {
     } else {
         document.getElementById("display-message").innerHTML = "MAN HANGED XX.";
         document.getElementById("right").style.cssText = 'opacity : 1';
+        document.getElementById("check").disabled = true;
     }
 
 }
