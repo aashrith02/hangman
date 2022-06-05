@@ -94,4 +94,15 @@ header {
     padding: 10px;
     border-radius: 15px;
     border-color: rgb(255, 95, 95);
+    text-align: center;
+}
+
+#attempts {
+    border-radius: 15px;
+    border-color: greenyellow;
+    border-width: 4px;
+    text-align: center;
+    width: 60px;
+    font-size: x-large;
+    margin-right: 10px;
 }
