@@ -35,7 +35,63 @@ header {
     opacity: 0;
 }
 
+.score-board {
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-board>a {
+    font-size: xx-large;
+    justify-content: center;
+}
+
 .right:hover {
     cursor: pointer;
     opacity: 1;
+}
+
+.numpad {
+    padding-top: px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.numpad>button {
+    font-size: xx-large;
+    width: 33.333%;
+    border: none;
+    padding-right: 10px;
+    transition: ease 0.3s;
+    border-radius: 10px;
+}
+
+.numpad>button:hover {
+    cursor: pointer;
+    background-color: rgb(246, 201, 201);
+}
+
+#check:hover {
+    background-color: rgb(152, 211, 211);
+}
+
+#reset:hover {
+    background-color: rgb(237, 68, 68);
+}
+
+.numinp {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#inp {
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: rgb(255, 95, 95);
 }
